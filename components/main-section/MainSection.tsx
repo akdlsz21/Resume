@@ -59,23 +59,29 @@ const MainSection = () => {
 				/>
 			</div>
 			<div className="h-full w-80 flex flex-col ml-8 justify-start ">
-				<HeaderText text="stack" />
-				<div className="flex flex-col items-start justify-start pt-12">
-					<p className="text-gray-700 mb-8 ">JAVASCRIPT - 중</p>
-					<p className="text-gray-700 mb-8 ">TYPESCRIPT - 중</p>
-					<p className="text-gray-700 mb-8 ">C - 하</p>
-					<p className="text-gray-700 mb-8 ">REACT - 중</p>
-					<p className="text-gray-700 mb-8 ">REACT-NATIVE - 중</p>
-					<p className="text-gray-700 mb-8 ">NEXT - 중</p>
-					<p className="text-gray-700 mb-8 ">LINUX - 중</p>
+				<HeaderText text="Languages" />
+				<div className="flex flex-col items-start justify-start pt-5">
+					<p className="text-gray-800 mb-2 ">JAVASCRIPT</p>
+					<p className="text-gray-800 mb-2 ">TYPESCRIPT</p>
+				</div>
+				<HeaderText text="framework" />
+				<div className="flex flex-col items-start justify-start pt-5">
+					<p className="text-gray-800 mb-2 ">REACT</p>
+					<p className="text-gray-800 mb-2 ">REACT-NATIVE</p>
+					<p className="text-gray-800 mb-2 ">NEXT</p>
+				</div>
+				<HeaderText text="environment" />
+				<div className="flex flex-col items-start justify-start pt-5">
+					<p className="text-gray-800 mb-2 ">LINUX</p>
+					<p className="text-gray-800 mb-2 ">C</p>
+					<p className="text-gray-800 mb-2 ">PYTHON</p>
 				</div>
 				<HeaderText text="education & etc" />
-				<div className="flex flex-col items-start justify-start pt-12">
-					<p className="text-gray-700 mb-8 ">
+				<div className="flex flex-col items-start justify-start pt-5">
+					<p className="text-gray-800 mb-2 ">
 						2023 중앙대 경영학부 졸업예정
 					</p>
-					<p className="text-gray-700 mb-8 ">토익 970 {'(만료)'}</p>
-					<p className="text-gray-700 mb-8 ">오픽 AL {'(만료)'}</p>
+					<p className="text-gray-800 mb-2 ">영어 능통</p>
 				</div>
 			</div>
 		</div>

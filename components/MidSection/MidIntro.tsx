@@ -7,7 +7,7 @@ const MidIntro = () => {
 			<div className=" px-20 w-4/5  bg-gray-100 h-56 flex flex-row align-middle justify-between">
 				<div className=" h-full w-full mt-4">
 					<HeaderText text="Introduction" />
-					<p className="text-gray-500 text-base whitespace-pre-line">
+					<p className="text-gray-500 text-base whitespace-pre-line mt-4">
 						{`21년 4월을 시작으로 개발을 독학하였습니다.
 						사용자 경험을 중심으로 생각을 하며 개발을 진행하고 있습니다.
 						주로 협력을 통한 프로젝트를 개발하였습니다.

@@ -11,7 +11,7 @@ interface Props {
 const ProjectIntro = ({ duration, projectName, desc, stack, links }: Props) => {
 	return (
 		<div className=" flex flex-col items-start justify-start">
-			<div className="flex flex-row items-start justify-start w-full mt-12 h-full ">
+			<div className="flex flex-row items-start justify-start w-full mt-5 h-full ">
 				<div className="w-44 h-full pt-1 ">
 					<h2 className="text-gray-700 text-sm">{duration}</h2>
 				</div>
