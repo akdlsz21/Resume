@@ -63,18 +63,33 @@ const MainSection = () => {
 				<div className="flex flex-col items-start justify-start pt-5">
 					<p className="text-gray-800 mb-2 ">JAVASCRIPT</p>
 					<p className="text-gray-800 mb-2 ">TYPESCRIPT</p>
+					<div className="w-full pt-1 mt-2 mb-6 flex flex-row items-center justify-center">
+						<h2 className="text-gray-700 text-sm whitespace-normal">
+							{` . `.repeat(5)}
+						</h2>
+					</div>
 				</div>
 				<HeaderText text="framework" />
 				<div className="flex flex-col items-start justify-start pt-5">
 					<p className="text-gray-800 mb-2 ">REACT</p>
 					<p className="text-gray-800 mb-2 ">REACT-NATIVE</p>
 					<p className="text-gray-800 mb-2 ">NEXT</p>
+					<div className="w-full pt-1 mt-2 mb-6 flex flex-row items-center justify-center">
+						<h2 className="text-gray-700 text-sm whitespace-normal">
+							{` . `.repeat(5)}
+						</h2>
+					</div>
 				</div>
 				<HeaderText text="environment" />
 				<div className="flex flex-col items-start justify-start pt-5">
 					<p className="text-gray-800 mb-2 ">LINUX</p>
 					<p className="text-gray-800 mb-2 ">C</p>
 					<p className="text-gray-800 mb-2 ">PYTHON</p>
+					<div className="w-full pt-1 mt-2 mb-6 flex flex-row items-center justify-center">
+						<h2 className="text-gray-700 text-sm whitespace-normal">
+							{` . `.repeat(5)}
+						</h2>
+					</div>
 				</div>
 				<HeaderText text="education & etc" />
 				<div className="flex flex-col items-start justify-start pt-5">

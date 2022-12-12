@@ -8,7 +8,7 @@ interface HeaderTextProps {
 const HeaderText = ({ text }: HeaderTextProps) => {
 	return (
 		<div className="flex flex-col items-start justify-center">
-			<h2 className="text-gray-500 text-xl pb-2 flex flex-row items-center justify-center">
+			<h2 className="text-gray-700 text-xl pb-2 flex flex-row items-center justify-center">
 				{'# ' + text.toUpperCase()}
 			</h2>
 			<div className="flex flex-row items-center justify-center w-full">
