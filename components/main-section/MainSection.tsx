@@ -8,11 +8,32 @@ const MainSection = () => {
 			<div className="">
 				<HeaderText text="Project experience" />
 				<ProjectIntro
+					duration="2023.02 ~ "
+					projectName="Zeroact "
+					desc={`React와 같은 프론트엔드 라이브러리를 모방하여 개발한 라이브러리입니다. 
+					모든 기능이 들어가 있지는 않지만, 근본적이고 핵심적인 기술을들 작성하려고 하였습니다. 
+					JSX를 이용하여 DOM element를 만들고, 렌더링을 시키는 라이브러리입니다. `}
+					stack={['typescript']}
+					links={['https://github.com/akdlsz21/zeroact']}
+				/>
+				<ProjectIntro
+					duration="2023.01 ~ "
+					projectName="미로와 최단경로 시각화 프로그램 "
+					desc={`길찾기 알고리즘을 시각적으로 표현한 웹프로그램입니다. 
+					bfs, dfs와 함께, A*, Dijkstra algorithm을 이용하여 만들었습니다. 
+					길찾기 시에, 재귀적 미로 생성기능을 도입하였습니다. 
+					각 알고리즘의 차이점을 명확하게 표현을 하고, 그 근본적인 작동원리를 표현하려고 노력을 하였습니다. 
+					
+					`}
+					stack={['react', 'typescript']}
+					links={['https://github.com/akdlsz21/path_finding_visualizer']}
+				/>
+				<ProjectIntro
 					duration="2022.11 ~ 2022.12"
 					projectName="CLASS4989"
-					desc={`프로그램 프론트엔드의 전체적인 기획을 맡음. 
-매일 일과시간 전, 어떠한 컴포넌트를 개발을 할지, 개발을 어떻게 하면 좋을지에 대해서 회의를 함. 
-프론트 코드에 일어나는 대부분의 버그에 대한 디버깅을 진행을 함.`}
+					desc={`Class101의 기능을 모방하여 개발한 웹프로그램입니다. Nextjs 를 통해 만들어져, SSR, SSG등과 같은 기술을 이용하여 만들었습니다. 
+					프로그램의 전체적인 기획을 맡았습니다. 매일 일과시간 시작전에, 어떠한 컴포넌트를 개발을 할지, 어떻게 접근하면 좋을지에 대해서 의견을 공유하였습니다. 프론트엔드 코드에 나타나는 대부분의 버그에 대한 디버깅을 진행을 하였습니다. 
+					`}
 					stack={['react', 'typescript', 'nextjs']}
 					links={[
 						'https://github.com/codestates-seb/seb40_main_008/tree/dev-fe',
@@ -21,11 +42,11 @@ const MainSection = () => {
 				<ProjectIntro
 					duration="2022.06 ~ "
 					projectName="KEEWE"
-					desc={`기사 및 칼럼을 읽고 자신의 의견을 작성하여 남들과 공유할 수 있는 플랫폼
-					한 주의 마지막에 백엔드와 기획자들끼리의 회의를 통해, 각 팀원들에게 어떠한 일을 배분해줄지에 대한 의견을 제시함.
-					코드에 대한 리뷰를 진행함.
-					코드를 작성하기 전에, 팀원들과 함께 어떠한 식으로 개발을 할지에 대해서 이야기를 진행함.
-					메인 브랜치에 머지하기 전, 화상회의를 통해 코드를 리뷰를 함. 지나치게 불필요하거나 불효율적인 코드에 대한 의견을 제시함.`}
+					desc={`기사 및 칼럼을 읽고, 자신의 의견을 작성하여 남들과 공유할 수 있는 React-native 기반의 플랫폼입니다. 
+					매주 기획자와 백엔드, 프론트엔드간의 회의가 진행이 되고, 저는 여기서 각 팀원들이 어떠한 기능을 구현해줬으면 하는지와, 어떻게 구현이 되었으면 하는지에 대해서 의견을 공유하고 있습니다. 
+					그리고 프론트에 있어서 버그가 났을때, 우선적으로 디버깅을 진행하고 있습니다. 
+					메인 브랜치에 머지하기 전에, 화상회의를 통해 코드 리뷰를 진행하고 있고, 지나치게 불필요하거나 비효율적인 코드에 대한 의견을 제시하고 있습니다. 
+					(4월 중순에 실제 서비스화 예정)`}
 					stack={[
 						'react',
 						'typescript',
@@ -38,21 +59,18 @@ const MainSection = () => {
 				<ProjectIntro
 					duration="2022.04 ~ "
 					projectName="VISUAL SORTING ALGORITHM"
-					desc={`정렬 알고리즘을 시각적으로 보여주는 웹 프로그램
-					프로그램의 기획부터 작성.
-					브라우저가 비동기적인 코드를 처리하는 방법에 대한 이해도가 증가함
-					프론트엔드 코드를 더 세심하게 분석할 수가 있게 됨.
-					코드를 작성을 할때, 아웃풋을 위한 댓가로 무엇을 치뤄야 하는지에 대해서 이해하게 됨.`}
+					desc={`정렬 알고리즘을 시각적으로 보여주는 프로그램입니다. 
+					일반적인 Bubble sort, Merge sort등과 같이 배열을 정렬 할 때 실시간으로 어떠한 영역이 어떻게 돌아가고 있는지를 자세히 보여주려고 노력을 하였고, 각 정렬을 위해 어떠한 요소가 다른 요소와 어떻게 비교가 되고 있는지를 나타내었습니다. 
+					`}
 					stack={['react', 'typescript']}
 					links={['https://github.com/akdlsz21/sorting_visualizer_v2']}
 				/>
 				<ProjectIntro
 					duration="2021.08 ~ 2022.03"
 					projectName="TOO-GOOD-TO-GO"
-					desc={`식품판매점에서 영업시간 마감전에, 가격을 할인하여 소비자들에게 판매하고 홍보할 수 있는 웹 프로그램
-					프론트엔드 독학후 첫 프로젝트.
-					프로그램 개발 의사결정에 참여 안함.
-					UI 컴포넌트 위주로 개발.
+					desc={`마트에서 영업시간 종료임박에 따라 땡처리하는것과 같이, 일반적인 음식점들도 저렴하게 음식을 판매할 수 있도록 하는 SPA 웹 프로그램입니다. 
+					의사결정에 참여를 거의 하지 않았습니다. 
+					UI 컴포넌트 위주로 개발을 하였고, 기능적인 부분에서 크게 참여하지 않았습니다. 
 					`}
 					stack={['react', 'typescript']}
 					links={['https://github.com/KangHayeonn/Too-Good-To-Go']}
@@ -93,9 +111,7 @@ const MainSection = () => {
 				</div>
 				<HeaderText text="education & etc" />
 				<div className="flex flex-col items-start justify-start pt-5">
-					<p className="text-gray-800 mb-2 ">
-						2023 중앙대 경영학부 졸업예정
-					</p>
+					<p className="text-gray-800 mb-2 ">2023 중앙대 경영학부 졸업</p>
 					<p className="text-gray-800 mb-2 ">영어 능통</p>
 				</div>
 			</div>
