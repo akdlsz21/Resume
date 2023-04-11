@@ -6,10 +6,11 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	height: 1500px;
+	height: 3500px;
 	max-width: 920px;
 	margin: 0 auto;
 	margin-bottom: 180px;
-	border-left: 1px solid rgb(230, 229, 229);
-	border-right: 1px solid rgb(230, 229, 229);
+	border-left: 5px solid rgb(160, 160, 160);
+	border-right: 5px solid rgb(160, 160, 160);
+	border-bottom: 5px solid rgb(160, 160, 160);
 }

@@ -7,9 +7,13 @@ import {
 	AiFillMediumCircle,
 } from 'react-icons/ai';
 import Link from 'next/link';
+import Image from 'next/image';
+
+const img = '/profile.jpg';
+
 const NavBar = () => {
 	return (
-		// set a div with max width with a border 1px solid red div
+		// set a div with max width with a  1px solid red div
 		<div className="px-20 h-52 flex flex-row align-middle justify-between">
 			<div className="flex flex-row align-top justify-start h-full w-full">
 				<div className="w-11 h-3/4 bg-gray-700 flex flex-col justify-center items-center">
@@ -52,9 +56,9 @@ const NavBar = () => {
 					</div>
 				</div>
 			</div>
-			<div className="h-full w-64 flex flex-row items-center justify-center">
+			<div className="h-full w-full  border-spacing-2 flex flex-row items-center justify-around">
 				<div className="flex flex-col items-start justify-around h-full pt-12">
-					<div className="flex flex-col items-start justify-center ">
+					<div className="flex flex-col items-start justify-center  w-48">
 						<span className="font-semibold text-4xl text-gray-700  tracking-widest ">
 							JI-HOON
 						</span>
@@ -64,6 +68,13 @@ const NavBar = () => {
 						Frontend Developer
 					</span>
 				</div>
+				<Image
+					className="rounded-full mt-8"
+					src={img}
+					width={240}
+					height={240}
+					alt="profile"
+				/>
 			</div>
 		</div>
 	);
